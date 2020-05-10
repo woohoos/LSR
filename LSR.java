@@ -294,7 +294,7 @@ public class LSR {
 
 			if (regmessage.equals("1")){				
 				ReadTextfileToBuildGraph();             //ReadTextFiletoBuildGraph method call                       
-				for (int n = 0;n<Max_rooters;n++ ) {    //EXTRA FEATURE IMPLEMENTATION -> TO DISPLAY CONNECTION TABLE FOR ALL NODES
+				for (int n = 0;n<Max_rooters;n++ ) {    
 					source = n;
 					ComputeConnectionTabel();       //ComputeConnectionTable method call
 					System.out.println();
